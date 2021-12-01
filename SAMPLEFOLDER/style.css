@@ -1,0 +1,41 @@
+h3{
+    background-color: brown;
+    color: yellow;
+}
+p{
+    color: orange;
+}
+.cardbody{
+    padding: 2%;
+    margin:3%;
+    border: 10px solid red;
+}
+button{
+    background-color: seagreen;
+    color: wheat;
+    font-size: small;
+}
+
+image{
+    border-radius: 10%;
+    padding: 2%;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+    .cardbody{
+        width: 95%;
+        font-size: 20px;
+    }
+    button{
+      font-size: 20px;  
+    }
+    
+}
